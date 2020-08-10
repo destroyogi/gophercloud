@@ -55,9 +55,7 @@ type User struct {
 // combined will assume a zero-value ("").
 type Endpoint struct {
 	TenantID    string `json:"tenantId"`
-	PublicURL   string `json:"publicURL"`
 	InternalURL string `json:"internalURL"`
-	AdminURL    string `json:"adminURL"`
 	Region      string `json:"region"`
 	VersionID   string `json:"versionId"`
 	VersionInfo string `json:"versionInfo"`
