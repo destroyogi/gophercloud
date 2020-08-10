@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
 )
 
 // Service represents a Compute service in the OpenStack cloud.

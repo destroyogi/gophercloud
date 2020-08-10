@@ -5,11 +5,11 @@ package v1
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/openstack/baremetal/v1/nodes"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/clients"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/baremetal/v1/nodes"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
 
-	th "github.com/gophercloud/gophercloud/testhelper"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
 )
 
 func TestNodesCreateDestroy(t *testing.T) {

@@ -1,6 +1,6 @@
 package trunks
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/yogeshwargnanasekaran/gophercloud"
 
 const resourcePath = "trunks"
 

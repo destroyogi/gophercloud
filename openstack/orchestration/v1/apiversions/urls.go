@@ -3,8 +3,8 @@ package apiversions
 import (
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/utils"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/utils"
 )
 
 func listURL(c *gophercloud.ServiceClient) string {

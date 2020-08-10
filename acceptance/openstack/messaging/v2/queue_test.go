@@ -5,10 +5,10 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/messaging/v2/queues"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/clients"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/tools"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/messaging/v2/queues"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
 )
 
 func TestCRUDQueues(t *testing.T) {

@@ -5,14 +5,14 @@ package mtu
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/common/extensions"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/mtu"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/networks"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/clients"
+	networking "github.com/yogeshwargnanasekaran/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/tools"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/common/extensions"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/networking/v2/extensions/mtu"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/networking/v2/networks"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
 )
 
 func TestMTUNetworkCRUDL(t *testing.T) {

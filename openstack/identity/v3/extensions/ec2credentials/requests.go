@@ -1,8 +1,8 @@
 package ec2credentials
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
 )
 
 // List enumerates the Credentials to which the current token has access.

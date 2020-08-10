@@ -3,11 +3,11 @@ package portsbinding
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/portsbinding"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/ports"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/tools"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/networking/v2/extensions/portsbinding"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/networking/v2/ports"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
 )
 
 // PortWithBindingExt represents a port with the binding fields

@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/volumetransfers"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/blockstorage/extensions/volumetransfers"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
+	"github.com/yogeshwargnanasekaran/gophercloud/testhelper/client"
 )
 
 const ListOutput = `

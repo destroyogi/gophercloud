@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/services"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	"github.com/gophercloud/gophercloud/testhelper/client"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/compute/v2/extensions/services"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
+	"github.com/yogeshwargnanasekaran/gophercloud/testhelper/client"
 )
 
 // ServiceListBodyPre253 represents a raw service list from the Compute API

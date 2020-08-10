@@ -5,10 +5,10 @@ package lbaas
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/lbaas/vips"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/clients"
+	networking "github.com/yogeshwargnanasekaran/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/tools"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/networking/v2/extensions/lbaas/vips"
 )
 
 func TestVIPsList(t *testing.T) {

@@ -1,6 +1,6 @@
 package subnetpools
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/yogeshwargnanasekaran/gophercloud"
 
 const resourcePath = "subnetpools"
 

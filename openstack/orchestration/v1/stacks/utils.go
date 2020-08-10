@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gophercloud/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud"
 	yaml "gopkg.in/yaml.v2"
 )
 

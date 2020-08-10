@@ -3,12 +3,12 @@ package rules
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	accpolicies "github.com/gophercloud/gophercloud/acceptance/openstack/networking/v2/extensions/qos/policies"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/qos/policies"
-	"github.com/gophercloud/gophercloud/openstack/networking/v2/extensions/qos/rules"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/clients"
+	accpolicies "github.com/yogeshwargnanasekaran/gophercloud/acceptance/openstack/networking/v2/extensions/qos/policies"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/tools"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/networking/v2/extensions/qos/policies"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/networking/v2/extensions/qos/rules"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
 )
 
 func TestBandwidthLimitRulesCRUD(t *testing.T) {

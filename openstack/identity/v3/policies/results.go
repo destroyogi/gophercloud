@@ -3,9 +3,9 @@ package policies
 import (
 	"encoding/json"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/internal"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud/internal"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
 )
 
 // Policy is an arbitrarily serialized policy engine rule

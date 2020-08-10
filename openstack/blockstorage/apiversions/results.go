@@ -3,7 +3,7 @@ package apiversions
 import (
 	"time"
 
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
 )
 
 // APIVersion represents an API version for Cinder.

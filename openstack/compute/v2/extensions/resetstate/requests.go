@@ -1,8 +1,8 @@
 package resetstate
 
 import (
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack/compute/v2/extensions"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/compute/v2/extensions"
 )
 
 // ServerState refers to the states usable in ResetState Action

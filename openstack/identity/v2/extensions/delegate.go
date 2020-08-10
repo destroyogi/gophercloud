@@ -1,9 +1,9 @@
 package extensions
 
 import (
-	"github.com/gophercloud/gophercloud"
-	common "github.com/gophercloud/gophercloud/openstack/common/extensions"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	common "github.com/yogeshwargnanasekaran/gophercloud/openstack/common/extensions"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
 )
 
 // ExtensionPage is a single page of Extension results.

@@ -5,11 +5,11 @@ package extensions
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/schedulerhints"
-	"github.com/gophercloud/gophercloud/openstack/blockstorage/v3/volumes"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/clients"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/tools"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/blockstorage/extensions/schedulerhints"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/blockstorage/v3/volumes"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
 )
 
 func TestSchedulerHints(t *testing.T) {

@@ -1,6 +1,6 @@
 package ipsecpolicies
 
-import "github.com/gophercloud/gophercloud"
+import "github.com/yogeshwargnanasekaran/gophercloud"
 
 const (
 	rootPath     = "vpn"

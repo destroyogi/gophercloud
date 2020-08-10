@@ -3,11 +3,11 @@ package testing
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/openstack"
-	tokens2 "github.com/gophercloud/gophercloud/openstack/identity/v2/tokens"
-	tokens3 "github.com/gophercloud/gophercloud/openstack/identity/v3/tokens"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack"
+	tokens2 "github.com/yogeshwargnanasekaran/gophercloud/openstack/identity/v2/tokens"
+	tokens3 "github.com/yogeshwargnanasekaran/gophercloud/openstack/identity/v3/tokens"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
 )
 
 // Service catalog fixtures take too much vertical space!

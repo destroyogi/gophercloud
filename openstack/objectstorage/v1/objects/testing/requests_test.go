@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	accountTesting "github.com/gophercloud/gophercloud/openstack/objectstorage/v1/accounts/testing"
-	containerTesting "github.com/gophercloud/gophercloud/openstack/objectstorage/v1/containers/testing"
-	"github.com/gophercloud/gophercloud/openstack/objectstorage/v1/objects"
-	"github.com/gophercloud/gophercloud/pagination"
-	th "github.com/gophercloud/gophercloud/testhelper"
-	fake "github.com/gophercloud/gophercloud/testhelper/client"
+	accountTesting "github.com/yogeshwargnanasekaran/gophercloud/openstack/objectstorage/v1/accounts/testing"
+	containerTesting "github.com/yogeshwargnanasekaran/gophercloud/openstack/objectstorage/v1/containers/testing"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/objectstorage/v1/objects"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
+	fake "github.com/yogeshwargnanasekaran/gophercloud/testhelper/client"
 )
 
 func TestDownloadReader(t *testing.T) {

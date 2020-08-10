@@ -5,15 +5,15 @@ package v2
 import (
 	"testing"
 
-	"github.com/gophercloud/gophercloud/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/acceptance/tools"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/l7policies"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/listeners"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/loadbalancers"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/monitors"
-	"github.com/gophercloud/gophercloud/openstack/loadbalancer/v2/pools"
-	th "github.com/gophercloud/gophercloud/testhelper"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/clients"
+	networking "github.com/yogeshwargnanasekaran/gophercloud/acceptance/openstack/networking/v2"
+	"github.com/yogeshwargnanasekaran/gophercloud/acceptance/tools"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/loadbalancer/v2/l7policies"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/loadbalancer/v2/listeners"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/loadbalancer/v2/loadbalancers"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/loadbalancer/v2/monitors"
+	"github.com/yogeshwargnanasekaran/gophercloud/openstack/loadbalancer/v2/pools"
+	th "github.com/yogeshwargnanasekaran/gophercloud/testhelper"
 )
 
 func TestLoadbalancersList(t *testing.T) {

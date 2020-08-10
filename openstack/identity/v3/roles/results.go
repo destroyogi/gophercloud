@@ -3,9 +3,9 @@ package roles
 import (
 	"encoding/json"
 
-	"github.com/gophercloud/gophercloud"
-	"github.com/gophercloud/gophercloud/internal"
-	"github.com/gophercloud/gophercloud/pagination"
+	"github.com/yogeshwargnanasekaran/gophercloud"
+	"github.com/yogeshwargnanasekaran/gophercloud/internal"
+	"github.com/yogeshwargnanasekaran/gophercloud/pagination"
 )
 
 // Role grants permissions to a user.
